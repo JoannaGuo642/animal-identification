@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="0">
+    <widget class="QTextEdit" name="textEdit_log">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;识别日志输出区&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QPushButton" name="pushButton_pause_batch">
+     <property name="text">
+      <string>暂停</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="pushButton_export">
+     <property name="text">
+      <string>导出识别报表</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="pushButton_saveimg">
+     <property name="text">
+      <string>保存识别后图片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_single">
+     <property name="text">
+      <string>单张图片动物识别</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="pushButton_clear">
+     <property name="text">
+      <string>清空所有内容</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pushButton_batch">
+     <property name="text">
+      <string>批量文件夹分拣识别</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="2">
+    <widget class="QSlider" name="slider_conf">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="label_slider_val">
+     <property name="text">
+      <string>当前阈值：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" rowspan="7">
+    <widget class="QLabel" name="label_picture">
+     <property name="text">
+      <string>在这里显示图片</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="pushButton_camera">
+     <property name="text">
+      <string>摄像头实时检测</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="pushButton_train">
+     <property name="text">
+      <string>训练动物检测模型</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QPushButton" name="pushButton_start_batch">
+     <property name="text">
+      <string>开始</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLabel" name="label_result">
+     <property name="text">
+      <string>识别结果</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QLabel" name="label_count">
+     <property name="text">
+      <string>识别数量</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
